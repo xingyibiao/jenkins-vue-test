@@ -75,7 +75,7 @@ export default class HelloWorld extends Vue {
       if (valid) {
         this.$message.success('验证通过')
       } else {
-        console.log(msg)
+        // console.log(msg)
         this.$message.error('请检查表单数据')
       }
     })

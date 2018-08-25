@@ -57,7 +57,7 @@ export default class VueFormVal extends mixins(VueForm) {
     if (!this.formState.$invalid) { // 表单验证通过
       // TODO xxx
     } else { // 表单验证不通过
-      console.log(this.formState)
+      // console.log(this.formState)
     }
   }
 }
