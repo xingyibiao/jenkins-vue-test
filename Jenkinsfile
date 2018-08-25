@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('install') {
       steps{
-        sh 'yarn'
+        sh 'cnpm install'
       }
     }
     stage('build') {
